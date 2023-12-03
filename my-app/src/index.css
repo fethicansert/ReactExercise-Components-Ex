@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.app-container{
+  width: 800px;
+  margin:  0 auto;
+}
+
+header{
+  background: #F5595A;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding:  1rem 0;
+  color: #FFF;
+}
+
+.earth-icon{
+  font-size: 1.5rem;
+  margin-right: .5rem;
+}
+
+.card{
+  display: flex;
+  width: 100%;
+  height: 250px;
+  /* padding: 0 1rem; */
+  margin-top: 3.5rem;
+}
+
+.card-image{
+  display: flex;
+  justify-content: center;
+  width: 30%;
+}
+img{
+  width: 90%;
+  height: 100%;
+  border-radius: 10px;
+}
+
+.card-info{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 70%;
+  padding: 0 .5rem;
+}
+
+.info-group{
+  display: flex;
+  align-items: center;
+}
+
+.location-icon{
+  color: #F5595A;
+  margin-right: .5rem;
+}
+
+.card-country{
+  text-transform: uppercase;
+}
+
+.view-google-button{
+  text-decoration: underline;
+  color: rgb(162, 162, 162);
+  margin-left: 1rem;
+}
+
+.card-title{
+  margin: .5rem 0 1.5rem;
+  font-size: 2.4rem;
+}
+.date{
+  font-weight: 600;
+  margin-bottom: .3rem;
+}
+
+.card p{
+  color: rgb(70, 70, 70);
+}
